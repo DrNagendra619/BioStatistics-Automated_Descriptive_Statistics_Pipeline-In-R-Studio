@@ -1,0 +1,41 @@
+[1] "Analysis started at: 2025-11-19 12:21:48.325193"
+[1] "Script Name: Automated_Descriptive_Statistics_Pipeline.R"
+[1] "Saving all outputs to D:/DOWNLOADS..."
+[1] "------------------------------------------------"
+[1] "1. Data Loading & Summary"
+[1] "------------------------------------------------"
+[1] "Saved: mtcars_raw_data.csv"
+[1] "--- Summary of MPG ---"
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  10.40   15.43   19.20   20.09   22.80   33.90 
+[1] "--- Detailed Metrics ---"
+[1] "Mean:               20.090625"
+[1] "Median:             19.2"
+[1] "Variance:           36.3241028225806"
+[1] "Standard Deviation: 6.0269480520891"
+[1] "------------------------------------------------"
+[1] "2. Range and Quantiles"
+[1] "------------------------------------------------"
+[1] "--- Range (Min, Max) ---"
+[1] 10.4 33.9
+[1] "--- Quantiles (0%, 25%, 50%, 75%, 100%) ---"
+    0%    25%    50%    75%   100% 
+10.400 15.425 19.200 22.800 33.900 
+null device 
+          1 
+[1] "Saved: 1_MPG_Boxplot.png"
+[1] "------------------------------------------------"
+[1] "3. Skewness & Kurtosis (Distribution Shape)"
+[1] "------------------------------------------------"
+[1] "Skewness: 0.610655017573288"
+[1] "Kurtosis: -0.372766029820891"
+null device 
+          1 
+[1] "Saved: 2_MPG_Histogram_Distribution.png"
+[1] "------------------------------------------------"
+[1] "4. Correlation (MPG vs Horsepower)"
+[1] "------------------------------------------------"
+[1] "Correlation Coefficient (r): -0.776168371826586"
+null device 
+          1 
+[1] "Saved: 3_Correlation_Scatterplot.png"
